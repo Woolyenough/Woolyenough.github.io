@@ -31,13 +31,13 @@ var speedFromUser;
 var lives = 3;
 var bricks = [];
 
-//scirpt for speed containment
+//script for speed containment
 var slider = document.getElementById("myRange");
 speed =110 - slider.value;
 slider.oninput = function() {
   speed = 110 - this.value;
 }
-//scirpt for speed containment
+//script for speed containment
 
 drawTapToStart();
 let firstTime = true;
