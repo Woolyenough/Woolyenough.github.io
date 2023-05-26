@@ -11,8 +11,7 @@ const gradients = {
 // Function to update the background gradient based on the selected value
 function updateBackgroundGradient() {
     const selectedValue = colorSelector.value;
-    const selectedGradient = gradients[selectedValue];
-    document.body.style.background = selectedGradient;
+    document.body.style.background = gradients[selectedValue];
 }
 
 // Event listener to detect changes in the dropdown selection
