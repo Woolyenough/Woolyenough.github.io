@@ -93,14 +93,14 @@ html {
 }
 
 .my-button div:before {
-    content: var(--button-content-before, "HOVER");
+    content: var(--button-content-before, "Pre-text");
     letter-spacing: 0;
     opacity: 1;
     transform: scale(1);
 }
 
 .my-button div:after {
-    content: var(--button-content-after, "YEAH !");
+    content: var(--button-content-after, "Post-text");
     letter-spacing: -10px;
     transform: scale(0);
     opacity: 0;
