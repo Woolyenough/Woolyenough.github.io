@@ -1,11 +1,12 @@
 // Get the dropdown selector element
-const colorSelector = document.getElementById('colorSelector');
+//const colorSelector = document.getElementById('colorSelector');
 
 // Define the color combinations for each gradient option
 const gradients = {
     gradient1: 'linear-gradient(to bottom right, #8360c3, #2ebf91)',
     gradient2: 'linear-gradient(to bottom right, #2c3e50, #4ca1af)',
-    gradient3: 'linear-gradient(to bottom right, #649173, #dbd5a4)'
+    gradient3: 'linear-gradient(to bottom right, #649173, #dbd5a4)',
+    gradient4: 'linear-gradient(to bottom right, #5d4157, #a8caba)'
 };
 
 // Function to update the background gradient based on the selected value

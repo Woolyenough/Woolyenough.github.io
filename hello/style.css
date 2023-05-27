@@ -1,32 +1,42 @@
 /* BACKGROUND */
+
 html {
-    background: linear-gradient(to bottom right, #2c3e50, #4ca1af);
+    height: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
-
-/*
 .colour-dropdown-container {
     position: fixed;
     bottom: 20px;
     right: 20px;
 }
-*/
+
 /* BUTTONS */
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height to the desired value */
+}
+
 .my-button {
-    position: absolute;
-    top: 50%;
+    /*position: absolute;*/
+    /*top: 50%;*/
     right: 0;
     left: 0;
     display: block;
-    width: 240px;
-    padding: 40px;
-    margin: 0 auto;
+    width: 960px;
+    height: 150px;
+    padding: 80px;
+    margin: 0 auto 10px;
     border: 0;
     cursor: pointer;
-    border-radius: 2px;
-    transform: translateY(-50%);
-    box-shadow: 0 10px 20px -5px #94a6af;
+    border-radius: 20px;
+    transform: translateY(-0%);
+    box-shadow: 0 20px 30px -10px #94a6af;
     overflow: hidden;
 }
 

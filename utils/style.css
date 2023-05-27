@@ -7,29 +7,3 @@
     color: #fff;
     text-decoration: none;
 }
-
-
-
-/* SPOILER CSS CODE */
-.spoiler {
-    position: relative;
-}
-
-.spoiler-header {
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.spoiler-content {
-    display: none;
-    background-color: #fff;
-    color: #000;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.spoiler.active .spoiler-content {
-    display: block;
-}
