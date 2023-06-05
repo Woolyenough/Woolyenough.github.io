@@ -26,20 +26,18 @@ html {
 }
 
 .my-button {
-    /*position: absolute;*/
-    /*top: 50%;*/
     right: 0;
     left: 0;
     display: block;
-    width: 700px;
-    height: 25px;
-    padding: 80px;
+    width: 60%;
+    height: 5%;
+    padding: 5%;
     margin: 0 auto 10px;
-    border: 0;
+    border: 5px inset;
+    border-radius: 10px;
     cursor: pointer;
-    border-radius: 20px;
     transform: translateY(-0%);
-    box-shadow: 0 20px 30px -10px #94a6af;
+    box-shadow: 0 40px 40px -40px #94a6af;
     overflow: hidden;
 }
 
@@ -82,20 +80,19 @@ html {
     top: 0;
     right: 0;
     left: 0;
-    color: #fff;
+    color: #AAAAAA;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    line-height: 1;
+    vertical-align: center;
     text-align: center;
-    padding: 25px 0;
+    padding: 1em;
     transition: 0.3s ease all;
 }
 
 .my-button div:before {
     content: var(--button-content-before, "Pre-text");
     letter-spacing: 0;
-    opacity: 1;
     transform: scale(1);
 }
 
